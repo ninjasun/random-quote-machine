@@ -1,5 +1,6 @@
 body{
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', sans-serif !important;
+  background-color: blueviolet;
 }
 
 .App {
@@ -11,14 +12,14 @@ body{
    font-size: 1em;
    text-align: right;
    margin-top: 20px;
+   color: blueviolet;
 }
 
 #text {
   text-align: center;
   font-weight: 500;
   font-size: 1.75em;
-  margin-top: 20px;
-
+  color: blueviolet;
 }
 
 #quote-box {
@@ -27,6 +28,10 @@ body{
   border-radius: 3px;
   width: 450px;
   margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 #new-quote {
@@ -37,6 +42,7 @@ body{
   cursor: pointer;
   border: none;
   float: right;
+  background-color: blueviolet;
 }
 .buttons{
   display: block;
@@ -45,5 +51,7 @@ body{
 
 #tweet-quote {
   float: left;
-  width: 20px
+  width: 20px;
+  background-color: blueviolet;
+  font-style: none;
 }
